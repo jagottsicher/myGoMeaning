@@ -14,7 +14,7 @@ type question struct {
 const InLife string = "change"
 
 // Uqlue is a variable of type question holding strings asked for
-var Uqlue question
+var Uqlue question 
 
 // Ask checks, if three elements asked for are identical the one stored
 //
