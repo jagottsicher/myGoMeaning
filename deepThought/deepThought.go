@@ -30,7 +30,7 @@ func Ask(life, universe, everything string) (int8, string) {
 	fmt.Println("What is the answer to the ultimate question of %v, %v and %v?", life, universe, everything)
 
 	if life == Uqlue.thing1 && universe == Uqlue.thing2 && everything == Uqlue.thing3 {
-		return 42, Inlife
+		return 42, InLife
 	}
 
 	return 0, "nothing"
