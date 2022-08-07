@@ -27,7 +27,7 @@ func Ask(life, universe, everything string) (int8, string) {
 		thing3: "everything",
 	}
 
-	fmt.Println("What is the answer to the ultimate question of %v, %v and %v?", life, universe, everything)
+	fmt.Printf("What is the answer to the ultimate question of %v, %v and %v?\n", life, universe, everything)
 
 	if life == Uqlue.thing1 && universe == Uqlue.thing2 && everything == Uqlue.thing3 {
 		return 42, InLife
