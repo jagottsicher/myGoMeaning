@@ -1,4 +1,4 @@
-// deepThought serves the anser to the the question about life, the universe and everthing
+// deepThought serves the answer to the the question about life, the universe and everything
 package deepThought
 
 import "fmt"
